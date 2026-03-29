@@ -7,22 +7,22 @@ class Aitop < Formula
   on_macos do
     on_arm do
       url "https://github.com/bugkill3r/aitop/releases/download/v#{version}/aitop-v#{version}-aarch64-apple-darwin.tar.gz"
-      sha256 "e48a0ab30e69a6423ed7ecd39b1727811eb832d4736526116fb5fa37fe5fbde4"
+      sha256 "f3a804d84ec7252721b728a1cd5d2dd7558b5eeceaf1e98bdbaa82e75738313b"
     end
     on_intel do
       url "https://github.com/bugkill3r/aitop/releases/download/v#{version}/aitop-v#{version}-x86_64-apple-darwin.tar.gz"
-      sha256 "16ac909772821affae875ae01bc80ee2d51d8aa1114149546249f96eb1118825"
+      sha256 "84bd1386e147e666a0ba05436da64fcc6d2c7175e06414445bff701f636d33b7"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/bugkill3r/aitop/releases/download/v#{version}/aitop-v#{version}-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "66732189e0520071ec32dddd7734f46c876cbd6cea0ad8da8bfcbec88470fe7a"
+      sha256 "d883c5f5d526db163742dc4471888605f5d14ae10017270666d3bb0756506336"
     end
     on_intel do
       url "https://github.com/bugkill3r/aitop/releases/download/v#{version}/aitop-v#{version}-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "6b81d9dbb8f912f9948b7a9463e9cd8576ca9c6703331f197794fac2f10f4606"
+      sha256 "29f53f71ba27681a3c6bdab3ec34acbeb21ec0e6edd275d8d5557cf0072e3665"
     end
   end
 
