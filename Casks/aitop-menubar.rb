@@ -1,6 +1,6 @@
 cask "aitop-menubar" do
-  version "0.6.3"
-  sha256 "4a440017c044e2139e1836d41f10a8167144a8c6c128ef8740f146a289c16401"
+  version "0.6.4"
+  sha256 "621c8ad46e8ae7f6b6d65ac6efe9a8b9a480d60609d12da47e5433bb2788d977"
 
   url "https://github.com/bugkill3r/aitop/releases/download/v#{version}/AitopMenuBar-v#{version}.zip"
   name "AitopMenuBar"
