@@ -1,28 +1,28 @@
 class Aitop < Formula
   desc "btop for AI — terminal dashboard for token usage and costs"
   homepage "https://github.com/bugkill3r/aitop"
-  version "0.6.5"
+  version "0.6.6"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/bugkill3r/aitop/releases/download/v#{version}/aitop-v#{version}-aarch64-apple-darwin.tar.gz"
-      sha256 "3cd4d2986d004da95c0252681d4a5e35c688234f3cd9893e807ce9d912eb1c03"
+      sha256 "8910fd769a1c1f18ac8f17abaf0d742263a8be716d3296cee0c9f80799ef84bb"
     end
     on_intel do
       url "https://github.com/bugkill3r/aitop/releases/download/v#{version}/aitop-v#{version}-x86_64-apple-darwin.tar.gz"
-      sha256 "cefd79672216a38658b84ff1d62327954c67d7f340ef45ae2a62655847d19061"
+      sha256 "ec999d499f40a4ebba7d6f0a4d3c2817107c2ab1cd119b3159ebdae5a1278a71"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/bugkill3r/aitop/releases/download/v#{version}/aitop-v#{version}-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "1230d0e8639e31ca0e81aef1dbcbdf63fbd25bdb8068fe3ca40cffabcd7a76b3"
+      sha256 "aeb60669b181ce5ee4de229efc1e18629849bfb30805825a102cd5f9b3911dde"
     end
     on_intel do
       url "https://github.com/bugkill3r/aitop/releases/download/v#{version}/aitop-v#{version}-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "4b69e9d5af64359939f5c2daac4c19b4d7438f7b8bf214e6d8d8c5394e8012fa"
+      sha256 "69d5c491ce00bb6efeb692a0058b0a39051757fe0f0c66957ff4c503918df44c"
     end
   end
 
